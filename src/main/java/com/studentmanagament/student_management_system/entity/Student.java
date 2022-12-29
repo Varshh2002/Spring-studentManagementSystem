@@ -13,6 +13,8 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long studentId;
+
+    
     @NotBlank(message = "please add department name")
     private String studentName;
     private String studentDepartment;
